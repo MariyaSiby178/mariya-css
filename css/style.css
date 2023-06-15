@@ -1,0 +1,131 @@
+body{
+    background-color: #050130;
+    background-size: 125vw;
+    font-size: 18px ;
+}
+h1{
+    color:white;
+    text-align: center;
+    text-decoration-color: brown;
+    font-variant: small-caps;
+    text-shadow: 0 0 5px darkred,0 0 15px white;
+    font-size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+p{
+    font-family: Garamond, serif;
+    font-size: 30px;
+    color: bisque;
+}
+#style{
+    text-align: center;
+    color: cornflowerblue;
+    font-family: cursive;
+    font-size: 35px;
+}
+.design{
+    text-align: right;
+    font-size: 25px;
+    background-color: chartreuse;
+    font-family: "Sofia", sans-serif;
+}
+
+p#center{
+    color: crimson;
+}
+div{
+    max-width: 250px;
+    height: 200px;
+    background-color: coral;
+    padding: 20px;
+    margin: 10px;
+    border: 5px solid navy;
+}
+p.dashed{
+    outline-style: dashed;
+}
+p.ex1{
+    border: 2px dotted black;
+    outline-style: solid;
+    outline-color: red;
+    outline-width: medium;
+    outline-color: darkred;
+    outline-offset: 10px;
+    font-size:20px;
+}
+p.rtl{
+    direction: rtl;
+    unicode-bidi: bidi-override;
+}
+img.a{
+    vertical-align: text-bottom;
+}
+img.b{
+    vertical-align: super;
+}
+a:link{
+    color: red;
+}
+a:visited{
+    color: green;
+}
+a:hover{
+    color: hotpink;
+    text-decoration: underline;
+    font-size: 120%;
+}
+a:active{
+    color: blue;
+    text-decoration: underline;
+}
+ol{
+    list-style-type: circle;
+    padding: 20px;
+    background-color: rgb(167, 51, 51);
+}
+ol li{
+    background-color: rgb(200, 134, 134);
+    padding: 5px;
+    margin: 5px;
+    color: #490101;
+}
+ul{
+    list-style-image: url('sqpurple.gif');
+    color: floralwhite;
+    background-color: #7b47a3;
+    padding: 25px;
+}
+ul li{
+    background-color: #9c7bb5;
+    padding: 5px;
+    list-style-position: outside;
+    color: #11011e;
+}
+table,th,td{
+    border:1px solid #9ac9cf;
+    padding: 10px;
+    width: 50%;
+}
+th,td{
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+}
+th{
+    color: #55bbe0;
+    height: 70px;
+    font-family: 'Cinzel' ,serif;
+}
+td{
+    color: #ca82d6;
+    height: 30px;
+    font-family: 'Fauna One',Serif;
+}
+tr:hover {background-color: #c5231e;}
+#test{
+    overflow-x: auto;
+    background-color: #050130;
+    border:#050130;
+}
+h1.hidden{
+    display: none;
+}
